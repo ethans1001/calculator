@@ -16,7 +16,7 @@ document.onkeydown = function(e) {
 }
 
 
-// Dictionary to store the string and the numerica value
+// Dictionary to store the string and the numerical value
 let numdict = {
    "zero":0,
    "one":1,
