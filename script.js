@@ -16,7 +16,7 @@ document.onkeydown = function(e) {
 }
 
 
-
+// Dictionary to store the string and the numerical value
 let numdict = {
    "zero":0,
    "one":1,
@@ -55,6 +55,8 @@ function getnum(num){
    }
 }
 
+
+// function to add two numbers
 function plus(){
    if(getnum1==true){
       sign="plus"
@@ -73,6 +75,7 @@ function minus(){
 
 }
 
+// function to multiply two numbers
 function times(){
    if(getnum1==true){
       sign="times"
