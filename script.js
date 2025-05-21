@@ -56,7 +56,7 @@ function getnum(num){
 }
 
 
-// function to add tw numbers
+// function to add two numbers
 function plus(){
    if(getnum1==true){
       sign="plus"
