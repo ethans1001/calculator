@@ -1,0 +1,112 @@
+
+#title{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#calculation{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: right;
+  font-weight: 3px solid black;
+  font-size: xx-large;
+}
+
+
+
+.tile {
+  width: 100px;
+  height:100px;
+  border-radius:50%;
+  line-height: 100px;
+  background-color: orange;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 4px;
+  color: white;
+  
+}
+
+.tile:hover{
+  background-color: #ffc252;
+}
+
+.function {
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    line-height: 100px;
+   
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 4px;
+    color: white;
+
+  
+}
+
+#plus {
+  background-color: #0b0a0a;
+}
+
+#minus {
+  background-color: #0b0a0a;
+}
+
+#times {
+  background-color: #0b0a0a;
+
+}
+
+#divide{
+  background-color: #0b0a0a;
+}
+#cleared{
+  background-color: #0b0a0a;
+}
+
+#equal{
+  background-color: #0b0a0a;
+}
+
+#plus:hover{
+  background-color: #5a5858;
+}
+
+#minus:hover{
+  background-color: #5a5858;
+}
+#times:hover{
+  background-color: #5a5858;
+}
+#divide:hover{
+  background-color: #5a5858;
+}
+
+#equal:hover{
+  background-color: #5a5858;
+}
+#cleared:hover{
+  background-color: #5a5858;
+}
+
+.function:hover{
+  background-color: #5a5858;
+}
+
+#grid {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height:400px;
+  display: grid;
+  grid-template-columns: repeat(4, 100fr);
+ 
+}
+
